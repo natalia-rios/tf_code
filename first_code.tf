@@ -3,6 +3,6 @@ provider "aws" {
   region = "us-west-2"
  }
 resource "aws_s3_bucket" "tf_course" {
-  bucket = "tf-course-20191118"
+  bucket = "tf-course-natalia-2022-06-27"
   acl    = "private"
 }
